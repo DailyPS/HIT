@@ -45,7 +45,11 @@
 # Kernel Module Compile Results
 *.mod*
 *.cmd
+<<<<<<< HEAD
 *.bin
+=======
+*.Identifier
+>>>>>>> 71d5ad682217186de83a95e563dddd615aaf077f
 .tmp_versions/
 modules.order
 Module.symvers
