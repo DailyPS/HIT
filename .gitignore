@@ -64,3 +64,4 @@ dkms.conf
 *.pif
 *.vb
 *.wsf
+.gdb_history
